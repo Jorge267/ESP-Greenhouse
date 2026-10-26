@@ -1,0 +1,23 @@
+# Compilación de Arduino
+build/
+*.bin
+*.elf
+*.hex
+*.map
+*.d
+
+# Carpetas de caché del IDE
+.vscode/
+.theia-workspace
+.arduino-ide/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credenciales: nunca subir al repositorio.
+# El PoP de aprovisionamiento está en el sketch porque el proyecto es
+# académico. Si se usa en producción, hay que sacarlo a un archivo ignorado.
+credenciales.h
+secrets.h
